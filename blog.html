@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segredos de uma maquiagem basica </title>
+    <link rel="stylesheet" href="blog.css">
+</head>
+<body>
+    <main>
+        <section class="form-section">
+            <h2>Criar Novo Post</h2>
+            <form id="form-post">
+                <div class="input-group">
+                    <label for="titulo">Título:</label>
+                    <input type="text" id="titulo" placeholder="Segredos de uma maquiagem basica " required>
+                </div>
+                
+                <div class="input-group">
+                    <label for="conteudo">Conteúdo:</label>
+                    <textarea id="conteudo" rows="5" placeholder="Digite o conteúdo do post" required></textarea>
+                </div>
+
+                <button type="submit" id="btn-enviar">Publicar</button>
+            </form>
+        </section>
+
+        <section class="resultado-section">
+            <h2>Post Criado</h2>
+            <article class="post-card">
+                <h3>Só as melhores dicas de maquiagem</h3>
+                <h3 id="renderizador-titulo">Nenhum título publicado ainda</h3>
+                <p id="renderizador-conteudo">O conteúdo do post aparecerá aqui após o envio.</p>
+            </article>
+        </section>
+    </main>
+     <footer>
+        <p>Desenvolvido por samyrle</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
